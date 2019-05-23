@@ -2,7 +2,7 @@ PROGRAM = server
 IDL_FILE = sample.thrift
 IDL_OUT = gen-c_glib
 
-SRCS = server.c  gen-c_glib/sample_basic.c gen-c_glib/sample_sample_types.c
+SRCS = server.c handler.c gen-c_glib/sample_basic.c gen-c_glib/sample_sample_types.c
 OBJS = $(SRCS:.c=.o)
 
 THRIFT = thrift
