@@ -78,7 +78,7 @@ RUN python -m pip -V
 RUN pip install six
 
 #Install sample source
-WORKDIR /root
-RUN git clone https://github.com/Be-cricket/thbdb.git
+#WORKDIR /root
+#RUN git clone https://github.com/Be-cricket/thbdb.git
 
 ENV LD_LIBRARY_PATH=/usr/local/lib
