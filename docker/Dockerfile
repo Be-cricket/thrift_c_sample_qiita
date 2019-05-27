@@ -1,4 +1,4 @@
-From centos
+From centos:7
 
 WORKDIR /root
 
